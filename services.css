@@ -1,0 +1,56 @@
+.services {
+    padding-top: 96px;
+    padding-bottom: 136px;
+    background-color: white;
+}
+
+.services h2 {
+    margin-bottom: 24px;
+}
+
+.services p {
+    margin-bottom: 64px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-list h3 {
+    margin-top: 24px;
+    margin-bottom: 74px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.services-list a {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.36;
+
+    color: #000000;
+}
+
+.services-list figcaption {
+    padding: 24px;
+    background-color: #FAFAFA;
+}
+
+.services-list a:after {
+    content: ' ›';
+}
+
+.services-list li:hover figcaption {
+    background-color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+.services-list li:hover {
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+}
+
+.services-list li{
+    transition: all 0.3s;
+}

@@ -1,0 +1,48 @@
+.contact-us {
+    background-color: #F7941E;
+    padding-bottom: 69px;
+    padding-top: 81px;
+}
+
+.contact-container h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.4;
+}
+
+.contact-container p {
+    font-size: 32px;
+    line-height: 1.4;
+}
+
+.button-black {
+    font-size: 18px;
+    line-height: 1.22;
+    text-transform: uppercase;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 14px 24px;
+
+}
+
+.button-black-filled {
+    font-size: 18px;
+    line-height: 1.22;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 14px 24px;
+    background-color: black;
+    margin-right: 16px;
+}
+
+.contact-container {
+    width: 970px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
